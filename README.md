@@ -12,6 +12,6 @@ Syntax
 
 <pre>
 ```ruby
-# Preprocess a ruby file using something like this syntax:
+# Preprocess a ruby file using something like the syntax above
 ```
 </pre>
