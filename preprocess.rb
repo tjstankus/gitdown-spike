@@ -51,10 +51,10 @@ module Commitate
   end
 
   class Renderer < Redcarpet::Render::HTML
-    GITDOWN_LINE = /^>>(.*)/
+    LINE_REGEX = /^>>(.*)/
 
     def preprocess(doc)
-      doc.gsub!(GITDOWN_LINE) do |markdown|
+      doc.gsub!(LINE_REGEX) do |markdown|
         Processor.new(markdown).process
       end
     end
