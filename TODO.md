@@ -1,9 +1,10 @@
 TODO
 ====
 
+- [x] Parse the parenthesized arguments into a hash without eval'ing.
+
 - [ ] Configure the repository location
 
-- [ ] Process hash-like string into a hash itself. String -> Hash ->
 
 - [ ] Files within a directory, down the git commit tree. Use the walker in
   rugged?
