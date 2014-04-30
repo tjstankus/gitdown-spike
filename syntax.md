@@ -6,6 +6,19 @@ in from a file at a specific commit sha. Most specifically, I'm undecided about
 how to capture the options part, the thing that looks like a hash inside the
 parentheses in the first example.
 
+Idea 0
+------
+
+```
+>>[hello.rb](af68c6261b14feccdd354b5c1055dcc733cad1e3){'lines':'1,6-9'}
+```
+
+The latest idea and the one I'm leaning towards. The `>>` syntax is to avoid
+conflict with both Marked and Leanpub Markdown extensions. I use Marked. This
+syntax also gets rid of the extraneous Listing information. The `[]()` bracket
+parentheses syntax is in line with basic Markdown and the `{}` curly braces use
+the same format as the widely-adopted PHP Markdown extras.
+
 Idea 1
 ------
 
